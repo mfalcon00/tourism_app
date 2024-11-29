@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import pickle
 import matplotlib.pyplot as plt
-import seaborn as sns
+#import seaborn as sns
 
 top_five = pd.read_csv('/Users/marjoriefalcon/Desktop/Bootcamp DS-22/M4P3-Final_Project-main/Tourism/Out/top_five.csv')
 top_five = top_five.set_index('Unnamed: 0')
