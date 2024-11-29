@@ -4,7 +4,7 @@ from explore_page import show_explore_page
 import pandas as pd
 
 
-df_in_peryear = pd.read_csv('/Users/marjoriefalcon/Desktop/Bootcamp DS-22/M4P3-Final_Project-main/Tourism/Out/inbound_per_year.csv')
+df_in_peryear = pd.read_csv('inbound_per_year.csv')
 df_in_peryear = df_in_peryear.drop('Unnamed: 0', axis=1)
 
 

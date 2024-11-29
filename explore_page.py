@@ -80,18 +80,28 @@ import plotly.figure_factory as ff
 # st.bar_chart(transposed_viz)
 
 # Data
-df_in_peryear = pd.read_csv('/Users/marjoriefalcon/Desktop/Bootcamp DS-22/M4P3-Final_Project-main/Tourism/Out/inbound_per_year.csv')
-df_year_region = pd.read_csv('/Users/marjoriefalcon/Desktop/Bootcamp DS-22/M4P3-Final_Project-main/Tourism/Out/inbound_year_region.csv')
-df = pd.read_csv('/Users/marjoriefalcon/Desktop/Bootcamp DS-22/M4P3-Final_Project-main/Tourism/Out/total_inbound.csv')
-df_regions = pd.read_csv('/Users/marjoriefalcon/Desktop/Bootcamp DS-22/M4P3-Final_Project-main/Tourism/Out/regions.csv')
-df_in_country = pd.read_csv('/Users/marjoriefalcon/Desktop/Bootcamp DS-22/M4P3-Final_Project-main/Tourism/Out/inbound_per_country.csv')
+# df_in_peryear = pd.read_csv('/Users/marjoriefalcon/Desktop/Bootcamp DS-22/M4P3-Final_Project-main/Tourism/Out/inbound_per_year.csv')
+# df_year_region = pd.read_csv('/Users/marjoriefalcon/Desktop/Bootcamp DS-22/M4P3-Final_Project-main/Tourism/Out/inbound_year_region.csv')
+# df = pd.read_csv('/Users/marjoriefalcon/Desktop/Bootcamp DS-22/M4P3-Final_Project-main/Tourism/Out/total_inbound.csv')
+# df_regions = pd.read_csv('/Users/marjoriefalcon/Desktop/Bootcamp DS-22/M4P3-Final_Project-main/Tourism/Out/regions.csv')
+# df_in_country = pd.read_csv('/Users/marjoriefalcon/Desktop/Bootcamp DS-22/M4P3-Final_Project-main/Tourism/Out/inbound_per_country.csv')
+# df_in_country = df_in_country.sort_values(by = 'total per country', ascending=False)
+# df_in_country = df_in_country.drop('Unnamed: 0', axis=1)
+# #heat_region = pd.read_csv('/Users/marjoriefalcon/Desktop/Bootcamp DS-22/M4P3-Final_Project-main/Tourism/Out/heat_region.csv')
+# sum_expenditure = pd.read_csv('/Users/marjoriefalcon/Desktop/Bootcamp DS-22/M4P3-Final_Project-main/Tourism/Out/sum_expenditure.csv')
+# gdp_pcap = pd.read_csv('/Users/marjoriefalcon/Desktop/Bootcamp DS-22/M4P3-Final_Project-main/Tourism/Out/gdp_pcap_table.csv')
+# global_employment = pd.read_csv('/Users/marjoriefalcon/Desktop/Bootcamp DS-22/M4P3-Final_Project-main/Tourism/Out/global_employment.csv')
+
+df_in_peryear = pd.read_csv('inbound_per_year.csv')
+df_year_region = pd.read_csv('inbound_year_region.csv')
+df = pd.read_csv('total_inbound.csv')
+df_regions = pd.read_csv('regions.csv')
+df_in_country = pd.read_csv('inbound_per_country.csv')
 df_in_country = df_in_country.sort_values(by = 'total per country', ascending=False)
 df_in_country = df_in_country.drop('Unnamed: 0', axis=1)
-#heat_region = pd.read_csv('/Users/marjoriefalcon/Desktop/Bootcamp DS-22/M4P3-Final_Project-main/Tourism/Out/heat_region.csv')
-sum_expenditure = pd.read_csv('/Users/marjoriefalcon/Desktop/Bootcamp DS-22/M4P3-Final_Project-main/Tourism/Out/sum_expenditure.csv')
-gdp_pcap = pd.read_csv('/Users/marjoriefalcon/Desktop/Bootcamp DS-22/M4P3-Final_Project-main/Tourism/Out/gdp_pcap_table.csv')
-global_employment = pd.read_csv('/Users/marjoriefalcon/Desktop/Bootcamp DS-22/M4P3-Final_Project-main/Tourism/Out/global_employment.csv')
-
+sum_expenditure = pd.read_csv('sum_expenditure.csv')
+gdp_pcap = pd.read_csv('gdp_pcap_table.csv')
+global_employment = pd.read_csv('global_employment.csv')
 
 
 
