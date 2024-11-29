@@ -87,7 +87,7 @@ df_regions = pd.read_csv('/Users/marjoriefalcon/Desktop/Bootcamp DS-22/M4P3-Fina
 df_in_country = pd.read_csv('/Users/marjoriefalcon/Desktop/Bootcamp DS-22/M4P3-Final_Project-main/Tourism/Out/inbound_per_country.csv')
 df_in_country = df_in_country.sort_values(by = 'total per country', ascending=False)
 df_in_country = df_in_country.drop('Unnamed: 0', axis=1)
-heat_region = pd.read_csv('/Users/marjoriefalcon/Desktop/Bootcamp DS-22/M4P3-Final_Project-main/Tourism/Out/heat_region.csv')
+#heat_region = pd.read_csv('/Users/marjoriefalcon/Desktop/Bootcamp DS-22/M4P3-Final_Project-main/Tourism/Out/heat_region.csv')
 sum_expenditure = pd.read_csv('/Users/marjoriefalcon/Desktop/Bootcamp DS-22/M4P3-Final_Project-main/Tourism/Out/sum_expenditure.csv')
 gdp_pcap = pd.read_csv('/Users/marjoriefalcon/Desktop/Bootcamp DS-22/M4P3-Final_Project-main/Tourism/Out/gdp_pcap_table.csv')
 global_employment = pd.read_csv('/Users/marjoriefalcon/Desktop/Bootcamp DS-22/M4P3-Final_Project-main/Tourism/Out/global_employment.csv')
